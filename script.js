@@ -77,7 +77,6 @@ function gameEngine() {
 
   // moving the snake
   for (let i = snakeArr.length - 2; i >= 0; i--) {
-    // const element = array[i];
     snakeArr[i + 1] = { ...snakeArr[i] };
   }
 
