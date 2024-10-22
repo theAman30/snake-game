@@ -23,7 +23,7 @@ function main(currentTime) {
 }
 
 function isCollide(snake) {
-  // Check collision with wall
+  // Check collision with wall  
   if (
     snake[0].x >= 18 ||
     snake[0].x <= 0 ||
