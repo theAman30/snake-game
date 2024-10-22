@@ -75,7 +75,7 @@ function gameEngine() {
     };
   }
 
-  // moving the snake
+  // moving the snake 
   for (let i = snakeArr.length - 2; i >= 0; i--) {
     snakeArr[i + 1] = { ...snakeArr[i] };
   }
